@@ -28,7 +28,7 @@ public class Main {
 				System.out.println(resultSet.getString("department") + ": " + resultSet.getString("salarysum"));
 			}
 		} catch (SQLException e) {
-			System.err.println("ERROR! Can't get values from users table" + e);
+			System.err.println("ERROR! НЕ МОЖЕТ ПОЛУЧИТЬ ДАННЫЕ ПО ТАБЛИЦЕ" + e);
 			throw e;
 		}
 	}
